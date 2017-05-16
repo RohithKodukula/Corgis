@@ -1,0 +1,43 @@
+nav
+{
+	position: fixed;
+	display: block;
+    margin: 0 auto;
+    padding: 0;
+    background-color: gray;
+	width: 100%;
+	top: 0;
+}
+
+li
+{
+	float: left;
+}
+
+#nav-item
+{
+	display: inline-block;
+	color: black;
+	text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+body
+{
+	background-image: background.jpg;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+#nav-item:hover
+{
+	background-color: #555;
+	color: blue;
+}
+
+ul {
+    
+}
