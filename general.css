@@ -23,6 +23,7 @@ nav
 	text-align: center;
     padding: 14px 40px;
     text-decoration: none;
+	font-family: "Open Sans Condensed";
 }
 
 #nav-item:hover
@@ -64,8 +65,10 @@ nav
 
 body
 {
-	background-color: #b3ecff;
+	background-color: #b4ccdb;
 		-moz-background-size: cover;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 }
+
+body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat979.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat979.gif), progress !important;}
