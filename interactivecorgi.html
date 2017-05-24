@@ -3,6 +3,60 @@
 <!--http://imagemap-generator.dariodomi.de/-->
 <html>
 
+<style>
+/* button */
+.button{
+  display: white;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  border: 3px solid #ffdae3;
+  padding: 20px 30px;
+  margin: 40px;
+}
+
+
+/* blue border offset */
+.button:after {
+  content: '';
+  border: 3px solid #91f08e;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  color: #f2f2f2;
+  white-space:nowrap;
+}
+
+/* grey border position */
+.button:active {
+  top: 3px;
+  left: 3px;
+}
+
+/* blue border position */
+.button:active:after{
+  top: 2px;
+  left: 2px
+}
+
+/* fill background color */
+.button:hover{
+  background: rgba(242,242,242,1);
+}
+
+.by {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+
+</style>
+
 <!-- Fonts-->
 <link rel="stylesheet" type="text/css" href="gallerya.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic|Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -27,12 +81,13 @@
 	</nav>
 <!-- Corgi map-->
 <head>
-  <center><font face="Barrio" font size ="64"><h1>Interactive Corgi</h1></center></font>
+   <center><font face= "Open Sans Condensed"><font size= "64"><font color = "white"><a href="#" class="button">Interactive Corgi</a></font></font></center>
+   <p> jkdfjklsdfjklasfdjklsdjklfklsdj </p><p><p></p></p>This is a clickable, interactive corgi map. Clicking on certain areas of the body will teach you more about these parts by redirecting to you to text about the body. To start, try clicking on the tail. </p>
 </head>
 <body>
 
 <font face="Open Sans">
-<h4 style="text-align:center;"> Click to learn more about the corgi</h4>
+
 
 <!--http://dogtime.com/dog-breeds/pembroke-welsh-corgi
 Corgi ears - http://dogcare.dailypuppy.com/long-corgi-puppys-ears-rise-7527.html
