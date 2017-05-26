@@ -38,9 +38,14 @@ nav
 	height: 300px;
 	border-top: solid #39a3c6 2px;
 	border-bottom: solid #39a3c6 2px;
-	background-color: #33ccff;
+	background-color: #6d9eb1;
 	overflow: hidden;
 	margin-bottom: 20px;
+}
+
+#strip-wrapper h2
+{
+	color: #293b42;
 }
 
 #cardleft
@@ -50,7 +55,7 @@ nav
 	padding: 10px;
 	float: left;
 	text-align: left;
-	background-color: #33ccff;
+	background-color: #6d9eb1;
 }
 
 #cardright
@@ -60,7 +65,7 @@ nav
 	padding: 10px;
 	float: right;
 	text-align: right;
-	background-color: #33ccff;
+	background-color: #6d9eb1;
 }
 
 body
