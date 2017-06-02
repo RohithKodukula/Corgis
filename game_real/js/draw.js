@@ -105,6 +105,7 @@ var drawModule = (function () {
   }
 
   var init = function(){
+	  score = 0;
       direction = 'down';
       drawSnake();
       createFood();
