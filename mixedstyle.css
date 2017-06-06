@@ -13,6 +13,7 @@
 
 }
 
+
 figure{
   float: left;
   text-align: center;
@@ -34,12 +35,14 @@ h2{
   text-align: center;
 }
 
+
 img.lab{
   display: block;
   margin-right: auto;
   margin-left: inherit;
     margin: 0px 5px;
 }
+
 
 img.dal{
   display: block;
@@ -118,6 +121,44 @@ img.gre{
   margin: 0px 5px;
 }
 
-/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat979.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat979.gif), progress !important;} /* End http://www.cursors-4u.com */
+.hm{
+	position: relative;
+	width: 50%;
+}
 
-/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat977.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat977.gif), progress !important;} /* End http://www.cursors-4u.com */
+.image{
+	display: block;
+	width: 300px;
+	height: 300px;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 300px;
+	width: 300px;
+	opacity: 0;
+	background-color: #008CBA;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition : all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	
+}
+
+.hm:hover .overlay{
+	opacity: 1;
+}
+
+.text{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
