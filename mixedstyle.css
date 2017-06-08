@@ -1,4 +1,4 @@
-#background{
+.background{
   width: 1000px;
   border:22px;
   margin:auto;
@@ -6,10 +6,8 @@
 }
 
 .Container{
-  width: 1000px;
+ width: 100%;
  margin: auto;
- border: 22px;
- display: block;
 
 }
 
@@ -35,101 +33,66 @@ h2{
   text-align: center;
 }
 
+h3{
+  font-family: Times New Roman;
+  font-size: 15px;
+  text-align: center;
+}
 
-img.lab{
+img.ldog{
   display: block;
   margin-right: auto;
   margin-left: inherit;
-    margin: 0px 5px;
+  margin: 0px 5px;
+  width: 250px;
+  height: 250px;
 }
 
 
-img.dal{
+img.mdog{
   display: block;
   margin-left: auto;
   margin-right: auto;
-    margin: 0px 5px;
+  margin: 0px 5px;
+  width: 250px;
+  height: 250px;
 }
 
-img.husk{
+img.rdog{
   display: block;
   margin-left: auto;
   margin-right: inherit;
   margin: 0px 5px;
+  width: 250px;
+  height: 250px;
 }
 
-img.ger{
-  display: block;
-  margin-right: auto;
-  margin-left: inherit;
-    margin: 0px 5px;
-}
 
-img.she{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin: 0px 5px;
-}
-
-img.gol{
-  display: block;
-  margin-left: auto;
-  margin-right: inherit;
-  margin: 0px 5px;
-}
-
-img.chi{
-  display: block;
-  margin-right: auto;
-  margin-left: inherit;
-    margin: 0px 5px;
-}
-
-img.rot{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin: 0px 5px;
-}
-
-img.pit{
-  display: block;
-  margin-left: auto;
-  margin-right: inherit;
-  margin: 0px 5px;
-}
-
-img.shi{
-  display: block;
-  margin-right: auto;
-  margin-left: inherit;
-    margin: 0px 5px;
-}
-
-img.ter{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin: 0px 5px;
-}
-
-img.gre{
-  display: block;
-  margin-left: auto;
-  margin-right: inherit;
-  margin: 0px 5px;
-}
-
-.hm{
+.hml{
 	position: relative;
-	width: 50%;
+  display: inline-block;
+  margin: 0px 5px;
+	width: 250px;
+  height: 250px;
+  padding: 30px;
 }
 
-.image{
-	display: block;
-	width: 300px;
-	height: 300px;
+.hmm{
+  position: relative;
+  display: inline-block;
+  margin: 0px 5px;
+	width: 250px;
+  height: 250px;
+  padding: 30px;
+}
+
+.hmr{
+  position: relative;
+  display: inline-block;
+  margin: 0px 5px;
+	width: 250px;
+  height: 250px;
+  padding: 30px;
 }
 
 .overlay{
@@ -138,23 +101,33 @@ img.gre{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 300px;
-	width: 300px;
+	height: 230px;
+	width: 230px;
+  padding: 30px;
 	opacity: 0;
-	background-color: #008CBA;
+	background-color: white;
 	-webkit-transition: all 0.5s ease-in;
 	-moz-transition : all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
 	transition: all 0.5s ease-in;
-	
+
 }
 
-.hm:hover .overlay{
-	opacity: 1;
+.hml:hover .overlay{
+	opacity: .75;
+}
+
+.hmm:hover .overlay{
+  opacity: .75;
+}
+
+.hmr:hover .overlay{
+  opacity: .75;
 }
 
 .text{
-	color: white;
+  text-align: center;
+	color: black;
 	font-size: 20px;
 	position: absolute;
 	top: 50%;
